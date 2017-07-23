@@ -25,6 +25,14 @@
       float: right;
     }
 
+    .clearfix {
+      overflow: auto;
+    }
+
+    .footer {
+      text-align: center;
+    }
+
   </style>
 </head>
 
@@ -42,7 +50,7 @@
 
   </div>
   <hr>
-  <div class="first">
+  <div class="first clearfix">
     <div class="bullet">
       <ul>
         <li>39 Years of Service in Hacienda Heights</li>
@@ -52,7 +60,10 @@
     </div>
     <img src="front_cropped.jpg" alt="Front of Office" class="front">
   </div>
-
+  <hr>
+  <div class="footer">
+    &copy; 1980<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Hacienda Medical Clinic.
+  </div>
 </body>
 
 </html>
